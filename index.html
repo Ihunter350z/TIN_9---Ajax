@@ -1,0 +1,36 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 9</title>
+    <script type="text/javascript" src="function.js"></script>
+</head>
+
+<body>
+    <form id='form'>
+        <section>
+        <label id="firstNumber" for="first">First number:</label>
+        <input type="text" id="first" name="first">
+    </section>
+        <label id="secondNumber" for="second">Second number:</label>
+        <input type="text" id="second" name="second">
+    <section>
+        <label id="operation" for="third">Operation:</label>
+        <select id="third">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+        </section>
+        <input id="submit" type="button" value="Submit" onclick="calculate()">
+        <section>
+        <label for = "result">Result: </label>
+        <p id='result'></p>
+    </section>
+
+    </form>
+</body>
+
+</html>
